@@ -1,17 +1,5 @@
 #!/bin/bash
-echo "      _            _       _       _              "
-echo "     | |          | |     | |     (_)             "
-echo "   __| |_   _  ___| | ____| |_   _ _ _ __   ___   "
-echo "  / _` | | | |/ __| |/ / _` | | | | | '_ \ / _ \  "
-echo " | (_| | |_| | (__|   < (_| | |_| | | | | | (_) | "
-echo "  \__,_|\__,_|\___|_|\_\__,_|\__,_|_|_| |_|\___/  "
-echo ""
-echo "Original duckduino tool created by Lacerda53"
-echo "Improved By PepeBigotes"
-echo "https://www.github.com/PepeBigotes/improvedduckduino/"
-echo "______________________________________________________"
-echo ""
-
+cat logo.txt
 echo "1 - Plug ARDUINO UNO into your PC with the two pins connected."
 echo "    (Check out the readme file if you have no idea what these pins are)"
 echo "2 - Remove the jumper that connect pins."
