@@ -61,7 +61,7 @@ void setup() {
   delay(200);
 /*SETUP CODE START*/
 
-/*START CODE FINISH*/
+/*SETUP CODE FINISH*/
 }
 void loop() {
 /*LOOP CODE START*/
