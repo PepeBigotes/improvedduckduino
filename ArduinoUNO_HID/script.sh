@@ -1,7 +1,7 @@
 #!/bin/bash
 cat logo.txt
 echo "1 - Plug ARDUINO UNO into your PC with the two pins connected."
-echo "    (Check out the readme file if you have no idea what these pins are)"
+echo "    (Check the github if you have no idea what these pins are)"
 echo "2 - Remove the jumper that connect pins."
 echo "3 - Press ENTER"
 read
