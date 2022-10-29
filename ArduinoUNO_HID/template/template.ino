@@ -59,20 +59,15 @@ void TAB();
 void setup() {
   Serial.begin(9600);
   delay(200);
+/*SETUP CODE START*/
 
-  DELAY(1000);
-  WINDOWS("r");
-  DELAY(100);
-  STRING("cmd");
-  ENTER();
-  DELAY(100);
-  STRING("start chrome.exe itpac.br");
-  ENTER();
-  
+/*START CODE FINISH*/
 }
-  void loop() {
+void loop() {
+/*LOOP CODE START*/
 
-  }
+/*LOOP CODE FINISH*/
+}
 
   void ALT_F2() {
     buf[0] = KEY_LEFT_ALT;
