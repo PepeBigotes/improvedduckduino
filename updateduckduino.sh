@@ -6,7 +6,7 @@ if [[ $(/usr/bin/id -u) -ne 0 ]]; then
 fi
 
 echo "CAUTION!!! This script REMOVES COMPLETELY the directory called 'improvedduckduino',"
-echo "this includes any changes you have made in said directory or any directory with the same name."
+echo "this includes any changes you have made in said directory or a directory with the same name."
 echo "This script will not work if the directory name is other than 'improcedduckduino'"
 echo "Select one of the next options:"
 echo "[c] cancel"
