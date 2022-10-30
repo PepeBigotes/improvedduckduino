@@ -1,11 +1,11 @@
 #! /bin/bash
-cat logo.txt
+
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     echo "Not running as root, try again with 'sudo' parameter:"
     echo "'sudo ./updateduckduino' or 'sudo !!'"
     exit
 fi
-
+cat logo.txt
 echo "CAUTION!!! This script REMOVES COMPLETELY the directory called 'improvedduckduino',"
 echo "this includes any changes you have made in said directory or a directory with the same name."
 echo "This script will not work if the directory name is other than 'improcedduckduino'"
