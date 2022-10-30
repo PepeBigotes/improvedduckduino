@@ -1,4 +1,5 @@
 #! /bin/bash
+cat logo.txt
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     echo "Not running as root, try again with 'sudo' parameter:"
     echo "'sudo ./updateduckduino' or 'sudo !!'"
