@@ -39,7 +39,7 @@ then
   mkdir $bkupname
   echo "[SCRIPT]Copying 'improvedduckduino' directory to "$bkupname"..."
   cp -r improvedduckduino $bkupname
-elif [[$option = i]]
+elif [[ $option = i ]]
 then
   echo "Selected option: ignore"
   echo "Are you sure? Hit ENTER to confirm or CTRL+C to calcel"
