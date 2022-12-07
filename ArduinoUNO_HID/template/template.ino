@@ -64,19 +64,93 @@ void setup() {
 /*SETUP CODE FINISH*/
 }
 void loop() {
-/*LOOP CODE START*/
+/*LOOP CODE START (not tested, may not work)*/
 
-/*LOOP CODE FINISH*/
+/*LOOP CODE FINISH (not tested, may not work)*/
 }
 
-  void ALT_F2() {
-    buf[0] = KEY_LEFT_ALT;
-    buf[2] = KEY_F2;
+
+
+
+  void F(int *f){
+    switch(f){
+      case 1:
+      buf[2] = KEY_F1;
+      break;
+      case 2:
+      buf[2] = KEY_F2;
+      break;
+      case 3:
+      buf[2] = KEY_F3;
+      break;
+      case 4:
+      buf[2] = KEY_F4;
+      break;
+      case 5:
+      buf[2] = KEY_F5;
+      break;
+      case 6:
+      buf[2] = KEY_F6;
+      break;
+      case 7:
+      buf[2] = KEY_F7;
+      break;
+      case 8:
+      buf[2] = KEY_F8;
+      break;
+      case 9:
+      buf[2] = KEY_F9;
+      break;
+      case 10:
+      buf[2] = KEY_F10;
+      break;
+      case 11:
+      buf[2] = KEY_F11;
+      break;
+      case 12:
+      buf[2] = KEY_F12;
+      break;
+    }
 
     Serial.write(buf, 8);       // Send keypress
     buf[0] = 0;
     buf[2] = 0;
     Serial.write(buf, 8);
+  }
+
+
+  void ALT_F(int *f) {
+    buf[0] = KEY_LEFT_ALT;
+    F(f);
+
+    Serial.write(buf, 8);       // Send keypress
+    buf[0] = 0;
+    buf[2] = 0;
+    Serial.write(buf, 8);
+  }
+
+  void ARROW(char *dir){
+      if (dir =="u"){
+      buf[2] = KEY_UP_ARROW;
+      }else if (dir == "d"){
+      buf[2] = KEY_DOWN_ARROW;
+      }else if (dir == "r"){
+      buf[2] = KEY_RIGHT_ARROW;
+      }else if (dir == "l"){
+      buf[2] = KEY_LEFT_ARROW;
+      }
+
+    Serial.write(buf, 8);       // Send keypress
+    buf[0] = 0;
+    buf[2] = 0;
+    Serial.write(buf, 8);
+  
+  }
+
+  void ARROWS(char *dir, int times){
+    for (int i = 0; i < times ; i++){
+      ARROW(dir);
+    }
   }
 
 
@@ -183,11 +257,7 @@ void loop() {
     }
   }
 
-  void DELAY(unsigned t) {
-    delay(t);
-  }
-
-  void CTRL_ALT(char *c) {
+  void CTRL_ALT(char *c = NULL) {
     buf[0] = KEY_LEFT_CTRL + KEY_LEFT_ALT;
     buf[2] = c[0] - 'a' + 4;
 
@@ -197,8 +267,19 @@ void loop() {
     Serial.write(buf, 8);
   }
 
-  void WINDOWS(char *c) {
+    void CTRL_KEY(char *c = NULL) {
+    buf[0] = KEY_LEFT_CTRL;
+    buf[2] = c[0] - 'a' + 4;
+
+    Serial.write(buf, 8);       // Send keypress
+    buf[0] = 0;
+    buf[2] = 0;
+    Serial.write(buf, 8);
+  }
+
+  void WINDOWS(char *c = NULL){
     buf[0] = KEY_LEFT_GUI;
+    if (c == NULL) return;
 
     if (c[0] >= 'a' && c[0] <= 'z') {
       buf[2] = c[0] - 'a' + 4;
@@ -236,4 +317,10 @@ void loop() {
     buf[0] = 0;
     buf[2] = 0;
     Serial.write(buf, 8);
+  }
+
+  void TABS(int input){
+    for (int i = 0; i < input; i++){
+      TAB();
+    }
   }
