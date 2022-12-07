@@ -72,7 +72,7 @@ void loop() {
 
 
 
-  void F(int *f){
+  void FKey(int f){
     switch(f){
       case 1:
       buf[2] = KEY_F1;
@@ -121,7 +121,7 @@ void loop() {
 
   void ALT_F(int *f) {
     buf[0] = KEY_LEFT_ALT;
-    F(f);
+    FKey(f);
 
     Serial.write(buf, 8);       // Send keypress
     buf[0] = 0;
