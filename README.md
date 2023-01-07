@@ -9,7 +9,7 @@ Check out the original version of the [duckduino tool](https://github.com/Lacerd
 
 - Easy to use "dependencies", "autoremove" and "update" shell scripts.
 - Simplified main script.
-- Out of the box template and payloads.  
+- Out of the box template and payloads (WIP).  
 <h2>Installation</h2>
 You can install this tool easily with using the "git" package.  
 After that just execute the "dependencies" script and you will be ready to use the duckduino tool.
