@@ -13,6 +13,11 @@ Check out the original version of the [duckduino tool](https://github.com/Lacerd
 <h2>Installation</h2>
 
 You can install this tool easily with using the "git" package.  
-`git clone https://github.com/PepeBigotes/improvedduckduino`
-After that just execute the "dependencies" script and you will be ready to use the duckduino tool.
+```bash
+git clone https://github.com/PepeBigotes/improvedduckduino
+```  
+After that execute the "dependencies" script and you will be ready to use the duckduino tool.
+```bash
+chmod +x dependencies.sh && ./dependencies.sh
+```  
 
