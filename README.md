@@ -1,5 +1,6 @@
 <h1 align="center">Improved Duckduino</h1>
 <h3 align="center">Improved version of the duckduino tool</h3>
+<img align="left" src="https://github.com/PepeBigotes/improvedduckduino/blob/master/duckduino.png" width=125px height=125px>
 
 <h2>About</h2>
 
