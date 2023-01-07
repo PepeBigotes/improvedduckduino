@@ -11,6 +11,8 @@ Check out the original version of the [duckduino tool](https://github.com/Lacerd
 - Simplified main script.
 - Out of the box template and payloads (WIP).  
 <h2>Installation</h2>
+
 You can install this tool easily with using the "git" package.  
+`git clone https://github.com/PepeBigotes/improvedduckduino`
 After that just execute the "dependencies" script and you will be ready to use the duckduino tool.
 
