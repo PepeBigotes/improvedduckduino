@@ -13,7 +13,7 @@ Check out the original version of the [duckduino tool](https://github.com/Lacerd
 - Out of the box template and payloads (WIP).  
 <h2>Installation</h2>
 
-You can install this tool easily with using the "git" package.  
+You can install this tool easily using the "git" package.  
 ```bash
 git clone https://github.com/PepeBigotes/improvedduckduino
 ```  
