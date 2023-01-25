@@ -1,11 +1,12 @@
+<img align="left" src="https://github.com/PepeBigotes/improvedduckduino/blob/master/duckduino.png" width=125px height=125px>
 <h1 align="center">Improved DuckDuino</h1>
 <h3 align="center">Improved version of the duckduino tool</h3>
-<img align="left" src="https://github.com/PepeBigotes/improvedduckduino/blob/master/duckduino.png" width=125px height=125px>
+
 
 <h2>About</h2>
 
 This is a fork of the DuckDuino tool, which is used to modify the firmware of an Arduino Uno board to make it act like a RubberDucky.  
-Check out the original version of the [DuckDuino tool](https://github.com/Lacerda53/duckduino).  
+Check out [the original version of the DuckDuino tool](https://github.com/Lacerda53/duckduino).  
 <h3>This improved version counts with:</h3>
 
 - Easy to use "dependencies", "autoremove" and "update" shell scripts.
