@@ -1,4 +1,4 @@
-<img align="left" src="https://github.com/PepeBigotes/improvedduckduino/blob/master/duckduino.png" width=125px height=125px>
+<img align="left" src="https://github.com/PepeBigotes/improvedduckduino/blob/master/duckduinologo.png" width=125px height=125px>
 <h1 align="center">Improved DuckDuino</h1>
 <h3 align="center">Improved version of the duckduino tool</h3>
 
