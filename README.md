@@ -28,7 +28,8 @@ And execute the `dependencies.sh` script.
 ```bash
 chmod +x dependencies.sh && ./dependencies.sh
 ```  
-Now you can use the `script.sh` located in the `ArduinoUNO_HID` directory.
+Now you can use the `script.sh` located in the `ArduinoUNO_HID` directory.  
+Keep in mind that you need a prepared `.ino` script to create a payload.
 ```bash
 cd ArduinoUNO_HID 
 ```
