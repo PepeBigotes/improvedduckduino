@@ -11,7 +11,7 @@ Check out [the original version of the DuckDuino tool](https://github.com/Lacerd
 
 - Simplified `script.sh`.
 - Some extra functions in the template script, including:   
- `ARROW()` , `ARROWS()` , `TABS()` , `FKeys()` , `ALT_F()` , `CTRL_KEY()`  
+ `ARROW()` , `ARROWS()` , `TABS()` , `FKey()` , `ALT_F()` , `CTRL_KEY()`  
 - Fixed `WINDOWS()` to work with null input.  
 - Easy to use `dependencies.sh`, `autoremove.sh` and `updateduckduino.sh` scripts.  
 <h2>Installation</h2>
