@@ -1,5 +1,4 @@
-#include duckduino.ino
-namespace d = duckduino;
+#include "./duckduino.h"
 
 /*SETUP CODE START*/ 
 void setup() {

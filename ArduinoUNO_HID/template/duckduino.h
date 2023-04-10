@@ -103,7 +103,7 @@ void FKey(int f){
   }
 
 
-oid ALT_F(int *f) {
+void ALT_F(int *f) {
     buf[0] = KEY_LEFT_ALT;
     FKey(f);
 
