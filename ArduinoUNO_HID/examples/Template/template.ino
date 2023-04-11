@@ -7,8 +7,6 @@ void setup() {
 
 }
 
-
-
 /*LOOP CODE START (not tested, may not work)*/
 void loop() {
 
