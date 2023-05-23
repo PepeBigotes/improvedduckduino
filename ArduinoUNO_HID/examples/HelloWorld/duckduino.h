@@ -56,7 +56,7 @@ void CTRL_ALT_DEL();
 void ALT_F2();
 void TAB();
 
-void FKey(int f){
+void F_KEY(int f){
     switch(f){
       case 1:
       buf[2] = KEY_F1;
